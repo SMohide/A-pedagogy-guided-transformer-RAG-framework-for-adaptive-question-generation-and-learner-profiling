@@ -2,7 +2,7 @@
 
 A comprehensive adaptive quiz generation framework that integrates learner profiling, psychometric modelling, and retrieval-augmented Transformer-based generation for personalized educational assessment.
 
-## 📋 Overview
+## Overview
 
 EduGen is an advanced educational assessment system that:
 - Generates pedagogy-aware, factually grounded quiz questions
