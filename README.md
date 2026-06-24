@@ -11,7 +11,7 @@ EduGen is an advanced educational assessment system that:
 - Aligns questions with Bloom's Taxonomy cognitive levels
 - Reduces hallucinations through RAG-based verification
 
-## 🏗️ Architecture
+## Architecture
 
 The framework consists of three main components:
 
@@ -30,7 +30,7 @@ The framework consists of three main components:
    - Benchmark and Scholarship Suitability Computation (BSSCA)
    - Performance tracking and reporting
 
-## 📊 Dataset
+## Dataset
 
 The implementation uses the `EduGen-Dataset` with 1,053 student assessment records including:
 - 12 quiz scores per student
@@ -39,7 +39,7 @@ The implementation uses the `EduGen-Dataset` with 1,053 student assessment recor
 - Study habits
 - Engineered features (Consistency Index, Top 9 Sum)
 
-## 🚀 Installation
+## Installation
 
 ```bash
 # Clone the repository
@@ -57,7 +57,7 @@ pip install -r requirements.txt
 python scripts/download_models.py
 ```
 
-## 💻 Usage
+## Usage
 
 ### Basic Usage
 
@@ -111,7 +111,7 @@ questions = edugen.generate_questions(
 batch_results = edugen.batch_evaluate(student_ids=['S001', 'S002', 'S003'])
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 edugen-framework/
@@ -179,7 +179,7 @@ python experiments/ablation_study.py --config configs/ablation_config.yaml
 python experiments/pilot_study.py --group experimental
 ```
 
-## 📈 Results
+## Results
 
 The framework achieves:
 - **91.2% Pedagogical Success Rate** (LLM-QG)
@@ -188,7 +188,7 @@ The framework achieves:
 - Strong performance across all Bloom's Taxonomy levels
 - Excellent calibration (ECE: 0.073)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please:
 1. Fork the repository
@@ -197,11 +197,11 @@ Contributions are welcome! Please:
 4. Push to the branch
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see LICENSE file for details.
 
-## 📚 Citation
+## Citation
 
 If you use this framework in your research, please cite:
 
@@ -214,12 +214,12 @@ If you use this framework in your research, please cite:
 }
 ```
 
-## 📧 Contact
+## Contact
 
 For questions and support:
 - Email: pankaj.mishra@somaiya.edu
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 This work builds upon research in:
 - Transformer architectures and LLMs
